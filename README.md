@@ -1,6 +1,11 @@
 # Replication of Comparative Studies of Detecting Abusive Language on Twitter
 This is a repository for the replication project for the Winter 2020 Data Reproducibility course in the Master of Data Science program at University of Washington.
 
+<!-- badges: start -->
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abolim/Reproducibility-Research-Replication/master?urlpath=rstudio)
+[![Build Docker Container](https://github.com/benmarwick/Reproducibility-Research-Replication/workflows/Build-Docker-Container/badge.svg)](https://github.com/benmarwick/Reproducibility-Research-Replication/actions)
+[![DOI](https://img.shields.io/badge/OSF-DOI%3A%2010.17605%2FOSF.IO%2FRX9SQ-brightgreen)](https://doi.org/10.17605/OSF.IO/RX9SQ)
+<!-- badges: end -->
 
 ### CONTRIBUTORS
 
@@ -14,7 +19,7 @@ This is a repository for the replication project for the Winter 2020 Data Reprod
 
 ### CONTENTS
 
-Lately, there has been a lot of effort and research on identifying content that is abusive or offensive on online and social media. Twitter recently published a relatively large and reliable dataset on ‘Hate and Abusive Speech on Twitter’. As Data Scientists, we understand the need to find the best methods and data for identifying such content and flagging it as inappropriate.
+Lately, there has been a lot of effort and research on identifying content that is abusive or offensive on online and social media. Twitter recently published a relatively large and reliable dataset on â€˜Hate and Abusive Speech on Twitterâ€™. As Data Scientists, we understand the need to find the best methods and data for identifying such content and flagging it as inappropriate.
  
 In this repository, our aim is to replicate some of the findings in a research paper that performs a comparative study and provides suggestions for using additional features and data for improving such classification of hate and abusive speech using Twitter data.
 Using the data and code provided by the authors, we aim to replicate the efficacy and accuracy of Logistic Regression model presented in this paper. The original paper had a comparative study of 5 different machine learning and deep learning algorithms. However, for our replication purpose we chose Logistic Regression model using word-level features as the authors have stated that this model outperformed all the machine learning techniques and had an F1-score which was equivalent to the best CNN model. For our project, we also had limited computational resources due to which execution of other machine learning and deep learning models was out of scope.
@@ -62,7 +67,11 @@ R packages and versions:
 |dplyr	            |0.8.3|
 |knitr	            |1.28|
 
+### LICENSE
+
+The project is licensed as MIT. Please read our [license details](LICENSE.md). 
+
 ### CONTRIBUTING
 
-We welcome contributions from everyone. If you would like to make a contribution, please read our contributor guidelines. Please note that this project is released with a [Contributor Code of Conduct](https://github.com/abolim/Reproducibility-Research-Replication/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+We welcome contributions from everyone. If you would like to make a contribution, please read our [contributor guidelines](CONTRIBUTING.md). Please note that this project is released with a [Contributor Code of Conduct](https://github.com/abolim/Reproducibility-Research-Replication/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
